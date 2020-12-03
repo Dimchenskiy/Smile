@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .emoji1 {
+        width: 160px;
+        height: 160px;
+        left: 80px;
+        top: 200px;
+        display: inline-block;
+        position: relative;
+        background: url('images/Group10.png');
+      }
+      .emoji1-m {
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('images/Group10.png');
+        background-position: -160px top;
+      }
+      .emoji1-e {
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('images/Group10.png');
+        background-position: -640px top;
+      }
+      .emoji2 {
+        width: 160px;
+        height: 160px;
+        left: 120px;
+        top: 200px;
+        display: inline-block;
+        position: relative;
+        background: url('images/Frame 2.png');
+      }
+      .emoji2-m {
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('images/Frame 2.png');
+        background-position: -160px top;
+      }
+      .emoji2-e {
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('images/Frame 2.png');
+        background-position: -640px top;
+      }
+      .emoji3 {
+        width: 160px;
+        height: 160px;
+        left: 160px;
+        top: 200px;
+        display: inline-block;
+        position: relative;
+        background: url('images/Frame 3.png');
+      }
+      .emoji3-m {
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('images/Frame 3.png');
+        background-position: -160px top;
+      }
+      .emoji3-e {
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('images/Frame 3.png');
+        background-position: -640px top;
+      }
+      .emoji4 {
+        width: 160px;
+        height: 160px;
+        left: 200px;
+        top: 200px;
+        display: inline-block;
+        position: relative;
+        background: url('images/Frame 4.png');
+      }
+      .emoji4-m {
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('images/Frame 4.png');
+        background-position: -160px top;
+      }
+      .emoji4-e {
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('images/Frame 4.png');
+        background-position: -640px top;
+      }
+      .emoji5 {
+        width: 160px;
+        height: 160px;
+        left: 240px;
+        top: 200px;
+        display: inline-block;
+        position: relative;
+        background: url('images/Frame 5.png');
+      }
+      .emoji5-m {
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('images/Frame 5.png');
+        background-position: -160px top;
+      }
+      .emoji5-e {
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('images/Frame 5.png');
+        background-position: -640px top;
+      }
+      @keyframes smile1 {
+        0% {background-position: -160px;}
+        33% {background-position: -320px;}
+        66% {background-position: -480px;}
+      }
+      .smile1 {
+        animation: smile1 1s steps(1) alternate infinite;
+      }
+      @keyframes blink1 {
+        0% {background-position: -640px;}
+        33% {background-position: -800px;}
+        66% {background-position: -960px;}
+      }
+      .blink1 {
+        animation: blink1 1s steps(1) alternate infinite;
+      }
+      @keyframes smile2 {
+        0% {background-position: -160px;}
+        33% {background-position: -320px;}
+        66% {background-position: -480px;}
+      }
+      .smile2 {
+        animation: smile2 1s steps(1) alternate infinite;
+      }
+      @keyframes blink2 {
+        0% {background-position: -640px;}
+        33% {background-position: -800px;}
+        66% {background-position: -960px;}
+      }
+      .blink2 {
+        animation: blink2 1s steps(1) alternate infinite;
+      }
+      @keyframes smile3 {
+        0% {background-position: -160px;}
+        33% {background-position: -320px;}
+        66% {background-position: -480px;}
+      }
+      .smile3 {
+        animation: smile3 1s steps(1) alternate infinite;
+      }
+      @keyframes blink3 {
+        0% {background-position: -640px;}
+        33% {background-position: -800px;}
+        66% {background-position: -960px;}
+      }
+      .blink3 {
+        animation: blink3 1s steps(1) alternate infinite;
+      }
+      @keyframes smile4 {
+        0% {background-position: -160px;}
+        33% {background-position: -320px;}
+        66% {background-position: -480px;}
+      }
+      .smile4 {
+        animation: smile4 1s steps(1) alternate infinite;
+      }
+      @keyframes blink4 {
+        0% {background-position: -640px;}
+        33% {background-position: -800px;}
+        66% {background-position: -960px;}
+      }
+      .blink4 {
+        animation: blink4 1s steps(1) alternate infinite;
+      }
+      @keyframes smile5 {
+        0% {background-position: -160px;}
+        33% {background-position: -320px;}
+        66% {background-position: -480px;}
+      }
+      .smile5 {
+        animation: smile5 1s steps(1) alternate infinite;
+      }
+      @keyframes blink5 {
+        0% {background-position: -640px;}
+        33% {background-position: -800px;}
+        66% {background-position: -960px;}
+      }
+      .blink5 {
+        animation: blink5 1s steps(1) alternate infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="emoji1">
+     <div class="emoji1-m smile1"></div>
+     <div class="emoji1-e blink1"></div>
+    </div>
+    <div class="emoji2">
+     <div class="emoji2-m smile2"></div>
+     <div class="emoji2-e blink2"></div>
+    </div>
+    <div class="emoji3">
+     <div class="emoji3-m smile3"></div>
+     <div class="emoji3-e blink3"></div>
+    </div>
+    <div class="emoji4">
+     <div class="emoji4-m smile4"></div>
+     <div class="emoji4-e blink4"></div>
+    </div>
+    <div class="emoji5">
+     <div class="emoji5-m smile5"></div>
+     <div class="emoji5-e blink5"></div>
+    </div>
+  </body>
+</html>
